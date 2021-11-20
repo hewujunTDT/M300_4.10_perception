@@ -1,0 +1,18 @@
+#constant
+
+uint8 RECTIFY_DOWN = 0
+uint8 RECTIFY_FRONT = 1
+uint8 RECTIFY_REAR = 2
+uint8 RECTIFY_UP = 3
+uint8 RECTIFY_LEFT = 4
+uint8 RECTIFY_RIGHT = 5
+
+#request
+
+bool is_open
+uint8 request_view #see constant
+
+---
+#reponse
+
+bool result
